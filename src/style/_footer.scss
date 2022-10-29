@@ -3,18 +3,9 @@
 	padding: 20px;
 	display: grid;
 	height: 30px;
-	grid-template-columns:  minmax(200px, 410px) minmax(490px, 770px);
-	grid-template-areas: "rss year";
+	grid-template-columns: minmax(490px, 1180px);
+	grid-template-areas: 'year';
 	background: $black;
-	&_rss {
-		grid-area: rss;
-		align-items: center;
-		display: flex;
-		justify-content: center;
-		& img {
-			max-height: 35px;
-		}
-	}
 
 	&_link {
 		margin: 0 auto;
